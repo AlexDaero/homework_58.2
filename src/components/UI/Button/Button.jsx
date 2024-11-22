@@ -6,7 +6,11 @@ const Button = (props) => {
     console.log('button')
     return (
         <button
-            onClick={props.click}>{props.text}</button>
+            className="button"
+            onClick={props.click}
+        >
+            {props.text}
+        </button>
     )
 }
 
